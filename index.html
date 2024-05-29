@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Garage - Tudo que você gosta em um só lugar</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="shadow">
+            <div class="container">
+                    <h1>Music Garage <img class="vinyl" src="./imagens/vinil.png" alt="Vinil girando"></h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#about">Sobre a empresa</a>
+                            </li>
+                            <li>
+                                <a href="#play">Dê um play</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="shadow-1">
+            <div class="container">
+                <img class="main-image"src="./imagens/main-image.png" alt="Banner da Music Garage"/>
+                <div>
+                    <h2>Sobre a empresa</h2>
+                    <p>
+                        A Music Garage é uma empresa que tem como objetivo facilitar a vida dos amantes de música clássica. 
+                        Aqui você encontra tudo que você gosta em um só lugar. 
+                        Nossa plataforma oferece um vasto catálogo de músicas clássicas, álbuns e artistas para você curtir a qualquer momento.
+                    </p>
+                    <p>
+                        Além disso, você pode criar playlists personalizadas, ouvir com seus amigos e descobrir novos artistas.
+                    </p>
+                    <p>
+                        A Music Garage é a sua garagem de música, onde você encontra tudo que você gosta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="play">
+        <div class="container">
+            <div class="shadow-1">
+                <h2>Dê um play</h2>
+            </div>
+            <div class="playlists">
+                <div class="shadow-1">
+                    <div>
+                        <img src="./imagens/alla.jpg" alt="Music 1"/>
+                        <h3>Rondo Alla Turca</h3>
+                        <p>
+                            Terceiro movimento da Sonata KV 331, o Rondo “Alla Turca” é considerado uma das peças mais famosas de Mozart, tendo sido inspirada nas sonoridades das Bandas Turcas formadas pelos Janízaros, muito em voga naqueles tempos, e interpretada por talentosos alunos e grandes pianistas.
+                        </p>
+                        <div class="position">
+                            <audio controls src="./music/Rondo alla Turca.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1">
+                    <div>
+                        <img src="./imagens/Sarabande.jpg" alt="Music 2"/>
+                        <h3>Sarabande</h3>
+                        <p>
+                            As principais características da Sarabanda são o compasso ternário e o andamento lento. Compositores barrocos dos séculos XVII e XVIII, como Handel, Purcell, Bach e Corelli, escreveram suítes que normalmente incluíam uma sarabanda como o terceiro dos quatro movimentos.
+                        </p>
+                        <div class="position">
+                            <audio controls src="./music/Sarabande, Haendel.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1">
+                    <div>
+                        <img src="./imagens/four.jpg" alt="Music 3"/>
+                        <h3>The Four Seasons</h3>
+                        <p>
+                            A obra mais conhecida de Vivaldi, As Quatro Estações, consiste em quatro concertos para violino e orquestra. Cada concerto tem três movimentos que duram aproximadamente dez minutos e representam as paisagens sonoras das estações: primavera, verão, outono e inverno.
+                            <br>
+                        </p>
+                        <div class="position">
+                            <audio controls src="./music/The Four Seasons, Winter - Vivaldi.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1">
+                    <div>
+                        <img src="./imagens/toujours.jpg" alt="Music 4"/>
+                        <h3>Toujours</h3>
+                        <p>
+                            Esta bela composição clássica, interpretada por mezzo-soprano e orquestra, evoca uma sensação de suavidade e delicadeza. Com harmonias refinadas e melodias serenas, cria um ambiente relaxante e encantador, ideal para vídeos de casamento, projetos cinematográficos e trailers. A combinação de vozes e instrumentos é sublime.
+                        </p>
+                        <div class="position">
+                            <audio controls src="./music/Toujours.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="shadow-1">
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-methods">
+                <div>
+                    <div class="shadow-1">
+                        <h3>Fale conosco</h3>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="text" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone" required/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <div class="shadow-1">
+                        <h3>Nos acompanhe</h3>
+                    </div>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram"> <img src="./imagens/instagram .png" alt="Logo do Instagram"/> </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook"> <img src="./imagens/facebook .png" alt="Logo do Facebook"/> </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no YouTube"> <img src="./imagens/youtube.png" alt="Logo do Youtube"/> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="shadow-1">
+                        <h3>Venha até nós</h3>
+                    </div>
+                    <p>
+                        XXXXXXX nº XXX, XXXXXXXX - XXXXXXXX - XX
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2024 Music Garage - Todos os direitos reservados
+            </p>
+            <div id="credits">
+                <h3>Créditos</h3>
+                <p>Track: Rondo Alla Turca<br>Music by <a href="https://www.fiftysounds.com" target="_blank">FiftySounds</a></p>
+                <p>Track: Sarabande<br>Music by <a href="https://www.fiftysounds.com" target="_blank">FiftySounds</a></p>
+                <p>Track: The Four Seasons<br>Music by <a href="https://www.fiftysounds.com" target="_blank">FiftySounds</a></p>
+                <p>Track: Toujours<br>Music by <a href="https://www.fiftysounds.com" target="_blank">FiftySounds</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
